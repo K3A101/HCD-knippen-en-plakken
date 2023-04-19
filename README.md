@@ -1,7 +1,8 @@
 # Human centred Design
+Voor het vak human centred design ga ik een ontwerp maken voor een specifieke persoon. Tijden dit vak hou ik de gebruiker centraal. Op basis van testen ga ik mijn prototype itereren totdat het doel is bereikt. 
 
 ## User scenario
-# User scenario
+
 ## Wie is Nicolette Besemer?
 Nicolette kan beperkt gebruik maken van haar ledematen.  Nicolette houdt zich veel bezig met toegankelijkheid. Daarnaast organiseerd ze veel voor de buurt en voor andere vrijwilligers. Ze is geoloog van beroep geweest en bezoekt graag natuurkundige wonderen. Ook is ze gepassioneerd door de natuur.
 
@@ -23,3 +24,8 @@ Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website va
 - Wat zijn jouw beperkingen met de tekentablet, wat wil je nog kunnen doen?
 - Waarom gebruikt u tablet eigenlijk?
 - Hoe gebruik ze spraak op de web? Wat voor soort software gebruik u?
+
+## Test 1
+### Inzichten
+### Iteratie
+### Functionaliteiten
