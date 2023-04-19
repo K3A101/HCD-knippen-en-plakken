@@ -1,4 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pastel-green: #d4e7d4;
+    --white: white;
+    --confirmation-green: #115d3b;
+    --algemene-tekst: 'interstate', sans-serif;
+}
+
+/*********************/
+/* ALGEMENE STIJLING */
+/*********************/
+
+body {
+    display:grid;
+    background-color: var(--pastel-green);
+    font-family: var(--algemene-tekst);
+    margin: 0 .5em;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    gap: 1em;
+}
+
+section {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius:1em;
+    gap: 2em;
+}
+
+
 textarea {
     width: 100%;
-    height: 5em;
+    height: 7em;
+    padding: 1em;
+}
+
+img {
+    width: 30%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 1em;
+}
+
+p {
+    line-height: 1.5;
+}
+/**********/
+/* HEADER */
+/**********/
+header {
+    padding: 2em;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+
+}
+
+
+/*********************/
+/* COPY CONFIRMATION */
+/*********************/
+.copied-confirmation {
+    color: var(--confirmation-green);
+    padding: 1em 0;
+}
+
+/******************/
+/* RESPONSIVENESS */
+/******************/
+
+@media (min-width: 40em) {
+    body {
+           
+            margin: 0 auto;
+            width: 50%;
+        }
+
+    section {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
