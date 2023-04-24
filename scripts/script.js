@@ -4,6 +4,14 @@ const copyConfirmations = document.querySelectorAll('.copied-confirmation');
 const textToCopy = document.querySelectorAll('.text-to-copy');
 const pasteButtons = document.querySelectorAll('.paste-button');
 const textAreas = document.querySelectorAll('textarea');
+
+// get selected text
+const selectedText = document.addEventListener("selectionchange", () => {
+    const selection = document.getSelection().toString();
+    console.log(selection);
+});
+
+//Voeg voeg de class hidden toe aan de paste buttons
 for (let i = 0; i < pasteButtons.length; i++) {
     pasteButtons[i].classList.add('hidden');
     
