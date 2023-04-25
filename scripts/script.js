@@ -7,6 +7,7 @@ const textAreas = document.querySelectorAll('textarea');
 
 
 
+
 //Voeg voeg de class hidden toe aan de paste buttons
 for (let i = 0; i < pasteButtons.length; i++) {
     pasteButtons[i].classList.add('hidden');

@@ -35,7 +35,7 @@ section {
     padding: 1.5em;
     border-radius: 1em;
     gap: 2em;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -119,6 +119,49 @@ article {
 
 
 
+/*****************************/
+/* VORIGE EN VOLGENDE BUTTON */
+/*****************************/
+.sections:first-of-type .copy-button.hidden {
+    display: none;
+}
+
+.sections:first-of-type .paste-button.hidden {
+    display: none;
+}
+.sections.hidden {
+    display: none;
+}
+.vorige, .volgende {
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    border-radius: 1em;
+    top: 50%;
+    /* left: 1em; */
+    padding: 1em 1.5em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+.vorige:hover,
+.volgende:hover{
+ transform: scale(1.1);
+}
+.vorige {
+    left: 1em;
+}
+.volgende {
+    position: absolute;
+    /* left: 0; */
+    top: 50%;
+    right: 1em;
+}
 /*********************/
 /* COPY CONFIRMATION */
 /*********************/
@@ -145,6 +188,7 @@ article {
     }
 
     section article:last-of-type  {
+        padding: 1em;
         align-self: flex-start;
     }
 
