@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pastel-green: #d4e7d4;
+    --white: white;
+    --confirmation-green: #36a271;
+    --algemene-tekst: 'interstate', sans-serif;
+}
+
+/*********************/
+/* ALGEMENE STIJLING */
+/*********************/
+
+body {
+    display: grid;
+    background-color: var(--pastel-green);
+    font-family: var(--algemene-tekst);
+    margin: 0 .5em;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    gap: 1em;
+}
+
+section {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius: 1em;
+    gap: 2em;
+    position: relative;
+
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 7em;
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 1em;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+/**********/
+/* HEADER */
+/**********/
+header {
+    padding: 2em;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+
+}
+
+/********/
+/* MAIN */
+/********/
+main button {
+    border: 3px dashed var(--confirmation-green);
+    padding: 1.5em 1em;
+    background-color: var(--confirmation-green);
+    border-radius: .5em;
+    color: var(--white);
+    font-weight: bold;
+    margin: .5em;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+main button:hover {
+    background-color: #47c28b;
+}
+
+main button.hidden {
+    visibility: hidden;
+
+}
+
+article {
+    
+    width: 70%;
+}
+
+
+
+/*********************/
+/* COPY CONFIRMATION */
+/*********************/
+.copied-confirmation {
+    color: var(--confirmation-green);
+    padding: 1em 0;
+}
+
+/******************/
+/* RESPONSIVENESS */
+/******************/
+
+@media (min-width: 900px) {
+    body {
+
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    section article:last-of-type  {
+        align-self: flex-start;
+    }
+
+
+
+    img {
+        width: 30%;
+
+    }
+}
