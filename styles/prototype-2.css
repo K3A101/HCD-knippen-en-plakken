@@ -21,11 +21,15 @@ body {
     font-family: var(--algemene-tekst);
     margin: 0 .5em;
     width: 100%;
+    
 }
 
 main {
     display: grid;
     gap: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100;
 }
 
 section {
@@ -43,8 +47,12 @@ section {
 
 textarea {
     width: 100%;
-    height: 7em;
+    height: 10em;
     padding: 1em;
+    margin: 1em 0;
+    background-color: rgb(231, 231, 231);
+    border: transparent;
+    border-radius: 1em;
 }
 
 img {
@@ -65,7 +73,7 @@ h1 {
 }
 
 nav {
-    margin: 1em;
+    margin: .5em;
 }
 
 p {
@@ -76,8 +84,25 @@ p {
 /**********/
 /* HEADER */
 /**********/
+.current {
+    padding-bottom: .5em;
+    border-bottom: 3px solid var(--confirmation-green);
+}
 header {
-    padding: 2em;
+    background-color: white;
+   
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+header a {
+    color: var(--confirmation-green);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+header h1 {
+    color: black;
 }
 
 header nav ul {
@@ -122,6 +147,7 @@ article {
 /*****************************/
 /* VORIGE EN VOLGENDE BUTTON */
 /*****************************/
+
 .sections:first-of-type .copy-button.hidden {
     display: none;
 }
@@ -170,15 +196,21 @@ article {
     padding: 1em 0;
 }
 
+
+
+footer li a {
+    font-size: .5em;
+}
 /******************/
 /* RESPONSIVENESS */
 /******************/
 
 @media (min-width: 900px) {
     body {
-
+        overflow: hidden;
         margin: 0 auto;
         width: 80%;
+        height: 100vh;
     }
 
     section {

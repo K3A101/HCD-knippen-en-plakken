@@ -42,6 +42,10 @@ textarea {
     width: 100%;
     height: 7em;
     padding: 1em;
+    margin: 1em 0;
+    background-color: rgb(231, 231, 231);
+    border: transparent;
+    border-radius: 1em;
 }
 
 img {
@@ -72,8 +76,27 @@ p {
 /**********/
 /* HEADER */
 /**********/
+.current {
+    padding-bottom: .5em;
+    border-bottom: 3px solid var(--confirmation-green);
+}
+
 header {
-    padding: 2em;
+    background-color: white;
+
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+header a {
+    color: var(--confirmation-green);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header h1 {
+    color: black;
 }
 
 header nav ul {
@@ -133,8 +156,9 @@ article {
         align-items: center;
         justify-content: space-evenly;
     }
-        img {
-            width: 30%;
-           
-        }
+
+    img {
+        width: 30%;
+
+    }
 }

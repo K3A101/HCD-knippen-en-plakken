@@ -7,12 +7,15 @@ const feedbackMessage = document.querySelectorAll('.select-confirmed-message');
 const copyButtons = document.querySelectorAll('.copy-button');
 const pasteButtons = document.querySelectorAll('.paste-button');
 const textAreas = document.querySelectorAll('textarea');
-const sections = document.querySelectorAll('.sections');
+// const sections = document.querySelectorAll('.sections');
 const nextButton = document.querySelector('.volgende');
 const previousButton = document.querySelector('.vorige');
-
+const slides = document.querySelectorAll(".sections");
 copyButtons[0].classList.add('hidden');
 pasteButtons[0].classList.add('hidden');
+
+slides[1].classList.add('hidden');
+slides[2].classList.add('hidden');
 
 let slideIndex = 1;
 nextButton.addEventListener('click', () => {
@@ -27,7 +30,6 @@ previousButton.addEventListener('click', () => {
 
 function showSlides(n) {
     let i;
-    const slides = document.querySelectorAll(".sections");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length} 
     for (i = 0; i < slides.length; i++) {
