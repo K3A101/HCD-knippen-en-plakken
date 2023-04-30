@@ -1,19 +1,42 @@
 # Human centred Design
 Voor het vak human centred design ga ik een ontwerp maken voor een specifieke persoon. Tijden dit vak hou ik de gebruiker centraal. Op basis van testen ga ik mijn prototype itereren totdat het doel is bereikt. 
 
+# Study Situation
+
+
 ## User scenario
 
 ## Wie is Nicolette Besemer?
-Nicolette kan beperkt gebruik maken van haar ledematen.  Nicolette houdt zich veel bezig met toegankelijkheid. Daarnaast organiseerd ze veel voor de buurt en voor andere vrijwilligers. Ze is geoloog van beroep geweest en bezoekt graag natuurkundige wonderen. Ook is ze gepassioneerd door de natuur. Ze gebruikt een rolstoel om zich te verplaatsen, en op haar computer maakt ze gebruik van spraaksoftware en een tekentablet in plaats van een muis. Dit maakt navigeren lastig omdat ze geen snelkoppelingen kan gebruiken.
+Nicolte is een 76 jarige vrouw. Nicolette kan beperkt gebruiken van haar ledematen. Ze kan deels haar arm en benen gebruiken.Ze gebruikt een rolstoel om zich te verplaatsen. 
+Zij is opgeleid als geooloog, en hou echt van onderwerpen over klimaatverandering en het natuur. Door haar passie werkte ze bij gemeente Amsterdam, waar ze veel activiteiten organiseerde voor gehandicapte.
+
+
+ Nicolette heeft een laptop waar ze veel documenten opslaan. Om haar laptop te bedienen gebruik ze een teken tablet Wacom Intuos S en dragon een spraaksoftware. Haar tekentablet gerbuik ze als een muis waar ze op elementen kan klikken. Want ze heeft meer controle op de pen. Verder gebruik ze de spraaksoftware  als een alternatief voor de toetsenboard. Ze kan wel typen maar niet zo snel, kan een voor een een toets indrukken. Dus Nicolette kan wel op haar eigen manier haar laptop bedienen, maar ze wil graag een makkelijker manier vinden om belangrijke stuk tekst willen selecteren, kopieren en plakken.
+
+## Haar beperkingen
+- Kan niet slepen met touch of de pen
+- Kan typen maar ze drukt een voor een een toets in, dus kan geen shortcuts zoals cnt + v gebruiken
+- Heeft heel moeite met scrollen
+- Kan niet tekst selecteren met de pen want het indrukken en daarna slepen is moeilijk voor haar. 
+
+## Haar behoefte
+- Wil navigeren zonder te scrollen
+- Tekst selecteren zonder te slepen
+- Wil makkelijk tekst kunnen kopieren en plakken
+
 
 ## Hoe kan het opgelost worden?
-Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website van de gemeente. Het is belangrijk om hier de juiste stukken uit te kunnen halen en door te kunnen sturen. Zonder rechtermuisknop of snelkoppeling is knippen en plakken bijna niet mogelijk. Ontwerp een manier om met spraak en tekentablet tekst te navigeren, selecteren, te knippen en te plakken.
+Het zou makelijk worden als ze met een commando, toets, tap, klik(met de tablet) een actie kan uitvoeren. Dus met zo min mogelijke handeling een directe actie uitvoeren.
+
+# Testen
+## Test 1
+Ik heb daardoor op basis van wat ik he gelezen, zonder haar te kennen een eerste versie van het prototype gemaakt. Het eerste test was voraal een kennismaking gesprek, waar ik Nicolette beter leren kennen. Ik heb daarna  mijn prototype laten zien en ze heeft het getest. Ik heb haar gevraagd wat ze ervan vond en wat ze nog zou willen.
 
 ## Vragen voor de testen
 - Over haar zelf vertellen?
-- Wat doe je allemaal op de computer
+- Wat doe u allemaal op de computer
 
-- Wat kan je allemaal met uw tablet?
+- Wat kan u allemaal met uw tablet?
 - Hoe ervaart ben u met computer bedienen met spraak.
 - Wat voor tablet heeft u?
 - Welke instellingen heeft u opgesteld op uw tablet?
@@ -26,6 +49,11 @@ Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website va
 Ik heb de informatie over Nicolette  gelezen. Ik ken haar nog niet , dus met al  mijn aanames een prototype gemaakt. Mijn prototype is een HTMl pagina van het structuur van de aarde. Ik heb gehoord dat ze geoloog is dus ik heb een artikel gevonden over het structuur van de aarde. Dus de pagina bestaat uit een aantal onderdelen. Per onderdeel kun je up het kopieer button kopieren en in de textarea plakken als je op de button klikt. 
 
 ![Prototype 1](images/prototype-1.png)
+
+## Ontwerpkeuze
+Ik heb voor mijn webpagina verschillende tinten van groen gebruikt. Over de informatie die ik had gekregen van Nicolette was dat ze een geoloog is en heeft een passie voor het natuur.  Dus ike heb groen gebruikt, omdat ik asocieer dit kleur met natuur. 
+
+Bovenaan heb je een titel die benoemt waarover het artikel gaat en de content is verdeeld in drie onderdelen, die je kan kopieren en plakken. Ik heb voor een textarea gekozen, omdat je daar makkelijk tekst kan plakken.
 
 
 ## Test 1
@@ -70,9 +98,25 @@ Inzichten:
 - 
 
 
+# Prototype 2
+Ik heb na de eerste test een nieuwe iteratie gemaakt aan mijn prototype. Het onderwerp bleef hetzelfde, maar de layout is verandert. 
+Nu bestaat de pagina uit een navigatie menu waar de gebruiker kan kiezen uit verschillende prototype. Het is ook voor mij handig want dan kun je het process zien. 
+
+![Prototype 2](images/prototype-2.png)
+![Prototype 2](images/prototype-2.2.png)
 
 
 ### Iteratie
-- Een simulatie maken hoe ze bestanden kan kopieren en plaatsen naar de ene plek naar een andere plej
+- Ik heb de prototype in een navigatie menu gezet, zodat ze kan kiezen welke prototype ze wilt testen.
+- Om  naar het volgende paragraaf te gaan hoeft ze niet te scrollen, maar ze kan op de knop klikken en dan gaat ze naar de volgende paragraaf.
+- Tekst kan geselecteerd worden met een knop, zodat ze niet hoeft ze niet met haar pen te slepen.
+- Ze kan tekst kopieren met de c toets en plakken met de v toets. 
+- Er Straat instructies, hoe ze moet kopeieren en plakken.
+- De tekst is groot genoeg zodat ze het kan lezen.
+- Kopieer en plak knoppen zijn onder het paragraaf
 
-Andere interactue methode voor haar
+
+## Test 2
+De volledige inzichten van de tweede test staat in mijn [Wiki](). Voor de test heb ik een testplan gemaakt. 
+
+## Inzichten van het prototype
