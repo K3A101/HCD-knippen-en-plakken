@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pastel-green: #d4e7d4;
+    --white: white;
+    --confirmation-green: #36a271;
+    --algemene-tekst: 'interstate', sans-serif;
+}
+
+/*********************/
+/* ALGEMENE STIJLING */
+/*********************/
+
+body {
+    display: grid;
+    background-color: var(--pastel-green);
+    font-family: var(--algemene-tekst);
+    margin: 0 .5em;
+    width: 100%;
+    
+}
+
+main {
+    display: grid;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+}
+
+section {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius: 1em;
+    gap: 2em;
+    /* position: relative; */
+
+}
+
+
+
+textarea {
+    width: 100%;
+    height: fit-content;
+    /* max-height: fit-content; */
+    padding: 1em;
+    margin: 1em 0;
+    background-color: rgb(231, 231, 231);
+    border: transparent;
+    border-radius: 1em;
+    font-family: var(--algemene-tekst);
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: .5em;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+/**********/
+/* HEADER */
+/**********/
+.current {
+    padding-bottom: .5em;
+    border-bottom: 3px solid var(--confirmation-green);
+}
+header {
+    background-color: white;
+   
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+header a {
+    color: var(--confirmation-green);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+header h1 {
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+
+}
+
+/********/
+/* MAIN */
+/********/
+main button {
+    border: 3px dashed var(--confirmation-green);
+    padding: 1.5em 1em;
+    background-color: var(--confirmation-green);
+    border-radius: .5em;
+    color: var(--white);
+    font-weight: bold;
+    margin: .5em;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+main button:hover {
+    background-color: #47c28b;
+}
+
+main button.hidden {
+    visibility: hidden;
+
+}
+
+article {
+    
+    width: 70%;
+}
+
+
+
+/*****************************/
+/* VORIGE EN VOLGENDE BUTTON */
+/*****************************/
+
+.sections:first-of-type .copy-button.hidden {
+    display: none;
+}
+
+.sections:first-of-type .paste-button.hidden {
+    display: none;
+}
+.sections.hidden {
+    display: none;
+}
+.vorige, .volgende {
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    border-radius: 1em;
+    top: 50%;
+    /* left: 1em; */
+    padding: 1em 1.5em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+.vorige:hover,
+.volgende:hover{
+ transform: scale(1.1);
+}
+.vorige {
+    left: 1em;
+}
+.volgende {
+    position: absolute;
+    /* left: 0; */
+    top: 50%;
+    right: 1em;
+}
+/*********************/
+/* COPY CONFIRMATION */
+/*********************/
+.copied-confirmation {
+    color: var(--confirmation-green);
+    padding: 1em 0;
+}
+
+
+
+footer li a {
+    font-size: .5em;
+}
+/******************/
+/* RESPONSIVENESS */
+/******************/
+
+@media (min-width: 900px) {
+    body {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 80%;
+        height: 100vh;
+    }
+
+    section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    section article:last-of-type  {
+        padding: 1em;
+        align-self: flex-start;
+    }
+
+
+
+    img {
+        width: 30%;
+
+    }
+}

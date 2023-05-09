@@ -6,27 +6,45 @@ Voor het vak human centred design ga ik een ontwerp maken voor een specifieke pe
 
 ## User scenario
 
+## Wie?
 ## Wie is Nicolette Besemer?
 Nicolte is een 76 jarige vrouw. Nicolette kan beperkt gebruiken van haar ledematen. Ze kan deels haar arm en benen gebruiken.Ze gebruikt een rolstoel om zich te verplaatsen. 
 Zij is opgeleid als geooloog, en hou echt van onderwerpen over klimaatverandering en het natuur. Door haar passie werkte ze bij gemeente Amsterdam, waar ze veel activiteiten organiseerde voor gehandicapte.
 
-
+## Wat ?
  Nicolette heeft een laptop waar ze veel documenten opslaan. Om haar laptop te bedienen gebruik ze een teken tablet Wacom Intuos S en dragon een spraaksoftware. Haar tekentablet gerbuik ze als een muis waar ze op elementen kan klikken. Want ze heeft meer controle op de pen. Verder gebruik ze de spraaksoftware  als een alternatief voor de toetsenboard. Ze kan wel typen maar niet zo snel, kan een voor een een toets indrukken. Dus Nicolette kan wel op haar eigen manier haar laptop bedienen, maar ze wil graag een makkelijker manier vinden om belangrijke stuk tekst willen selecteren, kopieren en plakken.
 
-## Haar beperkingen
+##  Wat zijn haar beperkingen
 - Kan niet slepen met touch of de pen
 - Kan typen maar ze drukt een voor een een toets in, dus kan geen shortcuts zoals cnt + v gebruiken
 - Heeft heel moeite met scrollen
 - Kan niet tekst selecteren met de pen want het indrukken en daarna slepen is moeilijk voor haar. 
 
-## Haar behoefte
+## Wat zijn haar behoefte
 - Wil navigeren zonder te scrollen
 - Tekst selecteren zonder te slepen
 - Wil makkelijk tekst kunnen kopieren en plakken
 
-
+## Hoe?
 ## Hoe kan het opgelost worden?
 Het zou makelijk worden als ze met een commando, toets, tap, klik(met de tablet) een actie kan uitvoeren. Dus met zo min mogelijke handeling een directe actie uitvoeren.
+
+## Waarom?
+
+
+Who
+Nicolette is a 76-year-old woman. Nicolette has limited use of her limbs, she can partially use her arm and legs. She uses a wheelchair to get around. She is trained geologist, and really love topics about climate change and nature. She worked at municipality of Amsterdam, where she organized many activities for disabled people.
+
+What
+Nicolette has a laptop where she stores a lot of documents. To operate her laptop she uses a drawing tablet Wacom Intuos S and Dragon a speech software. She uses her drawing tablet as a mouse where she can click on elements. Because she has more control when she uses the pen. Furthermore, she uses the speech software as an alternative to the keyboard. She can type but not as fast, can press a key one by one. So Nicolette can operate her laptop on her own, but she would like to find an easier way to want to select, copy and paste important piece of text.
+
+How
+This will be accomplished by using the user (Nicolette) will be able to copy and paste, this will be accomplished by using the web speech API.
+
+src: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
+
+Why
+With this concept it would be easier for the user (Nicolette), but also for a lot of other people, to select/copy/paste without having to use key combinations and precize movement with the mouse.
 
 # Testen
 ## Test 1
@@ -57,7 +75,7 @@ Bovenaan heb je een titel die benoemt waarover het artikel gaat en de content is
 
 
 ## Test 1
-De volledige inzichten van de eerste test staat in mijn [Wiki]()
+De volledige inzichten van de eerste test staat in mijn [Wiki](https://github.com/K3A101/HCD-knippen-en-plakken/wiki/Test-1-met-Nicolette)
 
 ## Inzichten van het prototype
 Ik heb haar mijn prototype laten proberen. Ik heb eerst vertelt wat ik allemaal heb gedaan. Toen ze ht zag was echt blij. Haar reactie: "Wat leuk!". Ik heb mijn laptop en mijn Wacom tekentablet gebruikt zodat ze kan testen. De teketablet was toevallig eentje die ze kon ook gebruiken. Dus het was makkelijk om de prototype te testen. Ik heb gevraagd hoe ze de tablet gebruikt en ik heb zo voor haar opgesteld. De tablet zet ze aan de rechterkant, want ze gebruikt haar rechterarm. De laptop is aan de linkerkant en naar voren geschoven. 
@@ -117,6 +135,56 @@ Nu bestaat de pagina uit een navigatie menu waar de gebruiker kan kiezen uit ver
 
 
 ## Test 2
-De volledige inzichten van de tweede test staat in mijn [Wiki](). Voor de test heb ik een testplan gemaakt. 
+De volledige inzichten van de tweede test staat in mijn [Wiki](https://github.com/K3A101/HCD-knippen-en-plakken/wiki/Test-2). Voor de test heb ik een testplan gemaakt. 
 
-## Inzichten van het prototype
+ ## Inzichten van het prototype
+- Ze vond het heel makkelijk want ze hoeft niet alles te selecteren door te slepen
+- Om de tekst te selecteren gaat ze op de pen te drukken en dan probeer ze met de pen te slepen om de tekst te selecteren
+- Met spraak kan zeg ze “selecteer aardkorst tot en met basalt”.
+- Vind wel handig als je met een knop de tekst kan selecteren en dan met spraak de tekst kopiëren en plakken. 
+- Bij de tweede paragraaf waren de instructie niet duidelijk dat ze met de toetsenbord moet tekst kopieren en plakken.
+Heeft as later de instructie gelezen, dus de instructies waren niet duidelijk genoeg voor haar.
+Vond de eerste interactie hartstikke mooi. 
+- Om naar het volgende paragraaf te gaan dacht ze eerst om naar prototype drie te gaan of de verder knop te klikken. Ze heeft besloten om op verder te klikken. 
+- Ze kan wel met de toetsenbord werken, dus ze drukt c en v in en ze kon hiermee met het toetsenbord gekopieerd en geplakt. Ze as echt blij 
+
+
+
+EXclusive design principes
+- Study situation
+- Prioritise identity
+- Ignore conventions
+- Add nonsense
+
+## Study Situation
+Met dit principe heb ik de situatie van Nicolette leren kennen. Het is bereikt door de twee testen die ik had uitgevoerd met haar. Daardom kom ik te weten dat ze niet een goede communicatie heeft tuusen haar hersenen ne haar ledematen. Ze gebruikt een rolstoel om zich te verplaatsen, maar kan nog steeds haar armen en benen bewegen. Ze gebruikt een spraakprogramma als een toetsenboard, om berichten te versturen, maar ze kan wel toetsen indrukken. Verder gebruik ze een wacom tekentablet met een pen en die als een muis bedienen. De tablet gebruikt ze om haar laptop te gebruiken. Wanneer ze een actie op haar laptop wil doen, gebruik ze zo min mogelijk handelingen om die te bereiken. Verder heeft ze ook aan ons verteld dat ze aan passie heeft aan de natuur, klimaatverandering, politiek en geologie. Ze leest ook veel, vooral de bovengenoemde onderwepen. Op basis van deze informatie heb ik een prototype voor haar gemaakt.
+
+
+## Prioritise identity
+Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vertelde dat ze van natuur en geologie houdt. Dus ik heb een prototype gemaakt over natuur en geologie. Daardoor heb ik een stujke informatie gezocht over structuur van het aarde zodat ze gemak heeft om de paragraaf te kopieren.
+
+## Ignore conventions
+Om tekst te kopieren en plakkenmoet je normaal gesproken, cnt + v en cntr + c gebruiken. Maar voor Nicolette heb ik andere manieren gevonden waarvan ze makkelijk tekst kan kopieren en plakken.
+Ik heb ervoor gezorgd dat ze met buttons tekst kan selecteren in plaats van slepen me haar pen. Ook zorgde ik ervoor dat ze met een zo min mogelijk handelingen/ combinaties van toets een actie kan uitvoeren.
+
+Verder heb ik een artikel per stuk verdeeld. Da hoef ze niet te scrollen, maar ze kan op de knop klikken en dan gaat ze naar de volgende paragraaf.
+Dit maak het makkelijk vooor haar om een stuk tekst te selecteren en te kopieren.
+
+
+## Add nonsense
+
+
+---
+## Features
+- [] Met een button tekst kopieren en plakken
+- [] Met spraak commando's uitvoeren.
+- [] Met  buttons tekst selecteren.
+- [] Met de toetsenbord tekst kopieren en plakken. 
+- [] Met buttons naar het volgende paragraaf 
+
+## Wishlist
+- [] een manier vinden waar ze kan zinnen kan selecteren
+- [] tekst kopieren met spraak
+
+---
+# Conclusie
