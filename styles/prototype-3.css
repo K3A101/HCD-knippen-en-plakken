@@ -21,7 +21,7 @@ body {
     font-family: var(--algemene-tekst);
     margin: 0 .5em;
     width: 100%;
-    
+
 }
 
 main {
@@ -90,9 +90,10 @@ p {
     padding-bottom: .5em;
     border-bottom: 3px solid var(--confirmation-green);
 }
+
 header {
     background-color: white;
-   
+
     width: 100%;
     display: grid;
     align-items: center;
@@ -103,6 +104,7 @@ header a {
     font-weight: bold;
     font-size: 1.2em;
 }
+
 header h1 {
     color: black;
 }
@@ -140,11 +142,26 @@ main button.hidden {
 }
 
 article {
-    
+
     width: 70%;
 }
 
+/***********/
+/* SECTION */
+/***********/
+section:nth-of-type(1) article:nth-of-type(2) {
+    display: grid;
+    gap: 1em;
 
+}
+
+
+/*********/
+/* PASTE */
+/*********/
+.paste-button {
+    width: fit-content;
+}
 
 /*****************************/
 /* VORIGE EN VOLGENDE BUTTON */
@@ -157,10 +174,13 @@ article {
 .sections:first-of-type .paste-button.hidden {
     display: none;
 }
+
 .sections.hidden {
     display: none;
 }
-.vorige, .volgende {
+
+.vorige,
+.volgende {
     position: absolute;
     width: 8em;
     height: 8em;
@@ -178,18 +198,60 @@ article {
 }
 
 .vorige:hover,
-.volgende:hover{
- transform: scale(1.1);
+.volgende:hover {
+    transform: scale(1.1);
 }
+
 .vorige {
     left: 1em;
 }
+
 .volgende {
     position: absolute;
     /* left: 0; */
     top: 50%;
     right: 1em;
 }
+
+/************/
+/* FEEDBACK */
+/************/
+.select-confirmed-message {
+    padding: .5em;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.select-confirmed-message.select-active {
+    background-color: var(--confirmation-green);
+    animation: bounce .5s ease-in-out 5 alternate both;
+}
+
+.select-confirmed-message.copy-active {
+    background-color: rgb(227, 109, 95);
+    animation: zoom .5s ease-in-out 5 alternate both;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 /*********************/
 /* COPY CONFIRMATION */
 /*********************/
@@ -203,6 +265,7 @@ article {
 footer li a {
     font-size: .5em;
 }
+
 /******************/
 /* RESPONSIVENESS */
 /******************/
@@ -221,7 +284,7 @@ footer li a {
         justify-content: space-evenly;
     }
 
-    section article:last-of-type  {
+    section article:last-of-type {
         padding: 1em;
         align-self: flex-start;
     }
