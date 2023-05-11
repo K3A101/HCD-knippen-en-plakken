@@ -9,11 +9,13 @@ Voor het vak human centred design ga ik een ontwerp maken voor een specifieke pe
   - [Hoe kan Nicolette haar doel bereiken]()
   - [Waarom gaat Nicolette op Mijn site]()
 - [Testen]()
+- [Do's and Dont bij testen]()
 - [Test 1]()
 - [Prototype 1]()
   - [Bevindingen van Test 1]()
   - [Inzichten van het prototype]()
   - [Mogelijke Ideen Voor het prototype 2]()
+- [Conclusie]()
 - [Prototype 2]()
 - [Test 2]()
   - [Testplan]()
@@ -53,7 +55,7 @@ Nicolette heeft moeite om ingewikkelde handelingen uit te voeren, handelingen zo
 Nicolette leest graag artikelen op haar laptop, ze gebruik een wacom tablet als muis en de spraaksoftware als toetsenbord. Tijdens het testen heb ik gezien dat ze kan wel een beetje de muispad en de toetsenbord kan gebruiken. Maar ze heeft wel moeiten om de tekst te selecteren met de pen en de muis. Ze kan geen sneltoetsen gebruiken zoals `ctrl + c ` en `ctrl + v`. Maar ze probeerde het wel. In mijn website verwachte ze dat ze makkelijk stukje tekst kan selecteren, kopiëren en plakken met haar tablet, spraak of toetsenbord. Met andere woorden zou Nicolette makkelijk vinden als ze met één commando, toets, tap of klik(met de tablet) een actie tekst kunnen selecteren, kopiëren en plakken. Dus met zo min mogelijke handeling een directe actie uitvoeren.
 
 ## Waarom ga Nicolette op mijn site?
-Op mijn site heeft Nicolette de mogelijkheid om tekst kopiëren, selecteren en plakken met een button en de toetsenbord. Ze hoeft ook niet te slepen en scrollen om tekst te selecteren. Wanneer de tekst geselecteerd is hoeft ze door middel van een knop kopiëren en plakken. Dus ze hoeft niet afhankleijk te zijn op de technieken al bestaan. En het gebasseerd op de apparaten die ze al gebruikt. Hiermee heeft ze haar doel bereikt om makkelijk te kopiëren en plakken met haar tablet.
+Op mijn site heeft Nicolette de mogelijkheid om tekst kopiëren, selecteren en plakken met een button en de toetsenbord. Ze hoeft ook niet te slepen en scrollen om tekst te selecteren. Wanneer de tekst geselecteerd is hoeft ze door middel van een knop kopiëren en plakken. Dus ze hoeft niet afhankleijk te zijn op de technieken die al bestaan. En het is gebasseerd op de apparaten die ze al gebruikt. Hiermee heeft ze haar doel bereikt om makkelijk zonder hulp te kopiëren en plakken met haar tablet.
 
 
 # Testen
@@ -102,6 +104,8 @@ Inzichten:
 - Vond het was makkelijk, maar ze vindt het wel een kleuterschool oplossing
 - Ze wil niks dat al voor je oplost, en wil wel op een makkelijke manier kunnnen selecteren. 
 - Ze is wel blij dat ze de buttons kunnen aanklikken, want ze heeft haar doel van knippen en plakken bereikt, maar het is te makkelijk. Maar ze vind het ook leuk om te doen. 
+
+### Conclusie
 
 ### Mogelijke ideeen voor prototype 2
 - Ervoor zorgen dat je actie kan uitvoeren met één commando, toets, tap, klik(met de tablet);
@@ -175,11 +179,19 @@ Vond de eerste interactie hartstikke mooi.
 - Ze zag niet eens de feedback dat ze de tekst gekopieerd heeft.
 
 
-### Mogelijke ideeën voor prototype 
+### Conclusie
+
+### Mogelijke ideeën voor prototype 3
 - Een mogelijkheid waar ze op basis van een selectie, de tekst meteen wordt gekopieerd.
 - Met arrow toets tekst selecteren
 - De feedback bericht duidelijker maken, zodat ze meteen kan zien dat ze de tekst heeft gekopieerd en geplakt.
-- 
+- Duidelijke instructie geven, hoe ze kan kopieren en plakken.
+- Een bericht geven dat de gebruiker de juiste toets invoert
+- Als de gebruiker niet op de juiste toets drukt wordt hij aangeraden op de juiste toetsen te gebruiken
+
+---
+## Prototype 3
+Ik heb een kleine iteratie gedaan bij het laatste 
 
 ---
 # Exclusive design principes
@@ -225,4 +237,4 @@ Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. D
 - [] tekst kopiëren met spraak
 
 ---
-# Conclusie
+# Conclusie/reflectie

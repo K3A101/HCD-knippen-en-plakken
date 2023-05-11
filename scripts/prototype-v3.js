@@ -12,15 +12,28 @@ const textAreas = document.querySelectorAll('textarea');
 const nextButton = document.querySelector('.volgende');
 const previousButton = document.querySelector('.vorige');
 const slides = document.querySelectorAll(".sections");
+const body = document.querySelector('body');
 copyButtons[0].classList.add('hidden');
 pasteButtons[0].classList.add('hidden');
 
 
-document.addEventListener('mouseup', event => {
+
+document.addEventListener('mousedown', event => {
+    const selectMessage = document.createElement('p');
     if (window.getSelection().toString().length) {
+        body.classList.add('green');
+        // selectMessage.textContent = 'Je hebt tekst geselecteerd';
+        body.appendChild(selectMessage);
         let exactText = window.getSelection().toString();
         console.log(exactText);
+
     }
+    else {
+        console.log('nothing selected');
+        // selectMessage.textContent = '';
+        body.classList.remove('green');
+    }
+
 });
 
 
@@ -93,11 +106,17 @@ const copyKey = document.addEventListener('keydown', (event) => {
         console.log('Tekst gekopieerd');
         console.log(copiedText);
         feedbackMessage[1].innerHTML = 'Tekst is gekopieerd';
+
     } else if (name === 'v' || name === 'V') {
         textAreas[1].value = copiedText;
         copiedText = ""
         console.log('Tekst is geplakt')
         feedbackMessage[1].innerHTML = 'Tekst is geplakt';
+        body.classList.add('green');
+    }else {
+        console.log('niks geplakt');
+        // selectMessage.textContent = '';
+        body.classList.remove('green');
     }
 });
 let copiedText
@@ -121,10 +140,11 @@ function copyTextFunction() {
             copiedText = ""
             console.log('Tekst is geplakt')
             feedbackMessage[0].innerHTML = 'Tekst is geplakt';
-
+            feedbackMessage[0].classList.add('past-active');
         })
 
 
 
     }
 }
+

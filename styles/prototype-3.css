@@ -21,9 +21,20 @@ body {
     font-family: var(--algemene-tekst);
     margin: 0 .5em;
     width: 100%;
+    /* user-select: none;
+    -webkit-user-select: none; */
 
 }
 
+body.green {
+    background-color: var(--confirmation-green);
+    background-image: url(../images/hands-clap-v2.png);
+    background-size: 3em 3em;
+    background-repeat: repeat;
+    background-position: 0 0, 5em 5em;
+}
+
+/* Bron: https: //www.clipartmax.com/download/m2i8A0i8K9Z5A0A0_hand-emoji-clipart-single-hand-clap-emoji-transparent/ */
 main {
     display: grid;
     gap: 1em;
@@ -45,9 +56,10 @@ section {
 
 
 
+
 textarea {
     width: 100%;
-    height: fit-content;
+    height: 15em;
     /* max-height: fit-content; */
     padding: 1em;
     margin: 1em 0;
@@ -141,6 +153,27 @@ main button.hidden {
 
 }
 
+
+.select-button {
+    animation: side .2s ease-in-out 25 alternate ;
+}
+
+
+
+.paste-button {
+    animation: side .2s ease-in-out 25 alternate;
+}
+
+@keyframes side {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
 article {
 
     width: 70%;
@@ -218,17 +251,26 @@ section:nth-of-type(1) article:nth-of-type(2) {
 /************/
 .select-confirmed-message {
     padding: .5em;
-    color: var(--white);
+   
     font-weight: bold;
+    text-align: center;
 }
 
 .select-confirmed-message.select-active {
+    color: var(--white);
     background-color: var(--confirmation-green);
     animation: bounce .5s ease-in-out 5 alternate both;
 }
 
 .select-confirmed-message.copy-active {
-    background-color: rgb(227, 109, 95);
+    color: var(--white);
+    background-color: #e36d5f;
+    animation: zoom .5s ease-in-out 5 alternate both;
+}
+
+.select-confirmed-message.paste-active {
+    color: var(--white);
+    background-color: #e3a95f;
     animation: zoom .5s ease-in-out 5 alternate both;
 }
 
@@ -266,6 +308,11 @@ footer li a {
     font-size: .5em;
 }
 
+
+.particle {
+    position: absolute;
+    will-change: transform;
+}
 /******************/
 /* RESPONSIVENESS */
 /******************/
