@@ -7,11 +7,11 @@
 > Hoe kan Nicolette kopiëren en plakken zonder een muis?
 
 ## Probleemdefinitie
-Nicolette kan heel beperkt haar armen en benen gebruiken, ze gebruikt geen muis en gebruikt nauwelijks het toetsenbord. Dus ze kan niet snelkoppelingen en de rechtermuis gebruiken. Als alternatief gebruik ze  een wacom tekentablet met een pen als muis en een spraakprogramma als toetsenbord. Omdat Nicolette geen muis of snellkoppeling gebruikt, wordt het moeilijker om tekst te kopiëren en plakken. Aan mij de taak om een ontwerp te maken waar ze tekst kan kopiëren zonder snelkoppelingen of de rechtermuisknop.
+Nicolette kan heel beperkt haar armen en benen gebruiken, ze gebruikt geen muis en gebruikt nauwelijks het toetsenbord. Dus ze kan niet snelkoppelingen en de rechtermuis gebruiken. Als alternatief gebruik ze  een wacom tekentablet met een pen als muis en een spraakprogramma als toetsenbord. Omdat Nicolette geen muis of snellkoppeling gebruikt, wordt het moeilijker om tekst te kopiëren en plakken. Aan mij de taak gegegeven om een ontwerp te maken waar ze tekst kan kopiëren zonder snelkoppelingen of de rechtermuisknop.
 
 ## Opossing
 
-Als oplossing heb ik een artikel over structuur van de aarde gebruikt. Het artikel is verdeel in drie pargrafen. Per paragraaf zijn er verschillende manieren om tekst te selecteren zonder een muis. Om tussen de paragrafen te navigeren moet Nicolette op de vorige en volgende knop te drukken, dan hoeft ze niet te scrollen. In het eerste paragraaf kan Nicolette met knoppen het hele paragraaf selecteren, kopiëren en plakken. De knoppen hoeft ze alleen met de pen te klikken. Bij het tweede paragraaf kan ze met de toetsenbord kopiëren, dus als ze `c` indrukt wordt de tekst gekopieerd. En als ze `v` indrukt kan de tekst ergens plakken. 
+Als oplossing heb ik een artikel over structuur van de aarde gebruikt. Het artikel is verdeeld in drie pargrafen. Per paragraaf zijn er verschillende manieren om tekst te selecteren zonder een muis. Om tussen de paragrafen te navigeren moet Nicolette op de vorige en volgende knop te drukken, dan hoeft ze niet te scrollen. In het eerste paragraaf kan Nicolette met knoppen het hele paragraaf selecteren, kopiëren en plakken. De knoppen hoeft ze alleen met de pen te klikken. Bij het tweede paragraaf kan ze met de toetsenbord kopiëren, dus als ze `c` indrukt wordt de tekst gekopieerd. En als ze `v` indrukt kan de tekst ergens plakken. 
 
 ## Link prototype
 - Link: https://k3a101.github.io/HCD-knippen-en-plakken/prototype-v3.html
@@ -87,11 +87,11 @@ Zij is opgeleid als geooloog, en hou echt van onderwerpen over klimaatveranderin
  Nicolette heeft een laptop waar ze veel documenten opslaan. Om haar laptop te bedienen gebruik ze een teken tablet Wacom Intuos S en dragon een spraaksoftware. Haar tekentablet gerbuik ze als een muis waar ze op elementen kan klikken. Want ze heeft meer controle op de pen. Verder gebruik ze de spraaksoftware  als een alternatief voor de toetsenboard. Ze kan wel typen maar niet zo snel, kan een voor een een toets indrukken. Dus Nicolette kan wel op haar eigen manier haar laptop bedienen.
 
  ## Wat is Het doel van Nicolette?
- Nicolette leest graag veel artikelen. Mijn website heb je een artikel over het structuur van de aarde. Soms wil ze zonder hulp belangrijke stukken van het artikel in een andere documenten te ze zetten. Om het stukje tekst te kunnen te bewaren, wil ze de tekst zelf kunnen kopiëren en ergens plakken met haar tablet, toetsenbord of spraak.  
+ Nicolette leest graag veel artikelen.Op mijn website heb je een artikel over het structuur van de aarde, haar favoriete onderwerp. Soms wil ze zonder hulp belangrijke stukken tekst van het artikel in een andere documenten te ze zetten. Om het stukje tekst te kunnen  bewaren, wil ze de tekst zelf kunnen kopiëren en ergens plakken met haar tablet, toetsenbord of spraak.  
 
 ###  Wat zijn haar beperkingen
 - Kan niet slepen met touch of de pen
-- Kan typen maar ze drukt een voor een een toets in, dus kan geen shortcuts zoals cnt + v gebruiken
+- Kan typen maar ze drukt één voor één  een toets in, dus ze kan geen snelkoppeling zoals cnt + v gebruiken
 - Heeft heel moeite met scrollen
 - Kan niet tekst selecteren met de pen want het indrukken en daarna slepen is moeilijk voor haar. 
 
@@ -99,7 +99,7 @@ Nicolette heeft moeite om ingewikkelde handelingen uit te voeren, handelingen zo
 
 
 ## Hoe kan Nicolette haar doel bereiken?
-Nicolette leest graag artikelen op haar laptop, ze gebruik een wacom tablet als muis en de spraaksoftware als toetsenbord. Tijdens het testen heb ik gezien dat ze kan wel een beetje de muispad en de toetsenbord kan gebruiken. Maar ze heeft wel moeiten om de tekst te selecteren met de pen en de muis. Ze kan geen sneltoetsen gebruiken zoals `ctrl + c ` en `ctrl + v`. Maar ze probeerde het wel. In mijn website verwachte ze dat ze makkelijk stukje tekst kan selecteren, kopiëren en plakken met haar tablet, spraak of toetsenbord. Met andere woorden zou Nicolette makkelijk vinden als ze met één commando, toets, tap of klik(met de tablet) een actie tekst kunnen selecteren, kopiëren en plakken. Dus met zo min mogelijke handeling een directe actie uitvoeren.
+Nicolette leest graag artikelen op haar laptop, ze gebruik een wacom tablet als muis en de spraaksoftware als toetsenbord. Tijdens het testen heb ik gezien dat ze  wel een beetje   de muispad  kan bheren en de toetsenbord  gebruiken. Maar ze heeft wel moeite om de tekst te selecteren met de pen en de muis. Ze kan geen sneltoetsen gebruiken zoals `ctrl + c ` en `ctrl + v`. Maar ze probeerde het wel. In mijn website verwachte ze dat ze makkelijk stukje tekst kan selecteren, kopiëren en plakken met haar tablet, spraak of toetsenbord. Met andere woorden zou Nicolette makkelijk vinden als ze met één commando, toets, tap of klik(met de tablet) een actie tekst kunnen selecteren, kopiëren en plakken. Dus met zo min mogelijke handeling een directe actie uitvoeren.
 
 ## Waarom ga Nicolette op mijn site?
 Op mijn site heeft Nicolette de mogelijkheid om tekst kopiëren, selecteren en plakken met een button en de toetsenbord. Ze hoeft ook niet te slepen en scrollen om tekst te selecteren. Wanneer de tekst geselecteerd is hoeft ze door middel van een knop kopiëren en plakken. Dus ze hoeft niet afhankleijk te zijn op de technieken die al bestaan. En het is gebasseerd op de apparaten die ze al gebruikt. Hiermee heeft ze haar doel bereikt om makkelijk zonder hulp te kopiëren en plakken met haar tablet.
@@ -251,8 +251,8 @@ De volledige inzichten van de tweede test staat in mijn [Wiki](https://github.co
  ## Inzichten van het prototype
 - Ze vond het heel makkelijk want ze hoeft niet alles te selecteren door te slepen
 - Om de tekst te selecteren gaat ze op de pen te drukken en dan probeer ze met de pen te slepen om de tekst te selecteren
-- Met spraak kan zeg ze “selecteer aardkorst tot en met basalt”.
-- Vind wel handig als je met een knop de tekst kan selecteren en dan met spraak de tekst kopiëren en plakken. 
+- Met spraak kan  ze “selecteer aardkorst tot en met basalt”.
+- Vindt wel handig als je met een knop de tekst kan selecteren en dan met spraak de tekst kopiëren en plakken. 
 - Bij de tweede paragraaf waren de gebruiksaanwijzing niet duidelijk genoeg. Dus Nicolette wist niet meteen dat ze met de toetsenbord tekst  kan kopiëren en plakken.
 - Om naar het volgende paragraaf te gaan dacht ze eerst om naar prototype drie te gaan of de verder knop te klikken. Ze heeft besloten om op verder te klikken. 
 - Ze kan wel met de toetsenbord werken, dus ze drukt c en v in en ze kon hiermee met het toetsenbord gekopieerd en geplakt. 
@@ -304,13 +304,13 @@ EXclusive design principes
 - Add nonsense
 
 ## Study Situation
-De study situation pricipe ga je kijken naar de situatie van de test persoon. Je ga bestuderen wat hun beperkingen zijn, welke apparaten gebruiken ze, wat he probleem is. 
+De study situation pricipe ga je kijken naar de situatie van de test persoon. Je ga bestuderen wat hun beperkingen zijn, welke apparaten gebruiken ze en wat het probleem is. 
 
-Met dit principe heb ik de situatie van Nicolette leren kennen. Het is bereikt door de twee testen die ik had uitgevoerd met haar. Daardom kom ik te weten dat ze niet een goede communicatie heeft tussen haar hersenen met haar ledematen. Ze gebruikt een rolstoel om zich te verplaatsen, maar kan nog steeds haar armen en benen bewegen. Ze gebruikt een spraakprogramma als een toetsenboard, om berichten te versturen, maar ze kan wel toetsen indrukken. Verder gebruik ze een wacom tekentablet met een pen en die als een muis bedienen. De tablet gebruikt ze om haar laptop te gebruiken. Wanneer ze een actie op haar laptop wil doen, gebruik ze zo min mogelijk handelingen om die te bereiken. Verder heeft ze ook aan ons verteld dat ze aan passie heeft aan de natuur, klimaatverandering, politiek en geologie. Ze leest ook veel, vooral de bovengenoemde onderwepen. Op basis van deze informatie heb ik een prototype voor haar gemaakt.
+Met dit principe heb ik de situatie van Nicolette leren kennen. Dit design principe is bereikt door de twee testen die ik had uitgevoerd met haar. Hierdoor wist ik dat ze niet een goede communicatie heeft tussen haar hersenen en haar ledematen. Ze gebruikt een rolstoel om zich te verplaatsen, maar kan nog steeds haar armen en benen bewegen. Ze gebruikt een spraakprogramma als een toetsenboard, om berichten te versturen, maar ze kan wel toetsen indrukken. Verder gebruik ze een wacom tekentablet met een pen en die als een muis bedienen. De tablet gebruikt ze om haar laptop te gebruiken. Wanneer ze een actie op haar laptop wil doen, gebruik ze zo min mogelijk handelingen om die te bereiken. Verder heeft ze ook aan ons verteld dat ze aan passie heeft aan de natuur, klimaatverandering, politiek en geologie. Ze leest ook veel, vooral de bovengenoemde onderwepen. Op basis van deze informatie heb ik een prototype voor haar gemaakt.
 
 
 ## Prioritise identity
-Prioritise identity principe gaat over de identiteit van de test persoon. Je gaat kijken wat de passie van de test persoon is, wat hij leuk vindt om te doen. Op basis van hun eigenschappen ga je een prototype maken.
+Prioritise identity principe gaat over de identiteit van de test persoon. Je gaat kijken wat de passie van de test persoon is, wat hij leuk vindt om te doen. Op basis van hun eigenschappen en identiteit ga je een prototype maken.
 Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vertelde dat ze van natuur en geologie houdt. Dus ik heb een prototype gemaakt over natuur en geologie. Daardoor heb ik een stujke informatie gezocht over structuur van het aarde zodat ze gemak heeft om de paragraaf te kopiëren. 
 
 ## Ignore conventions
@@ -319,12 +319,12 @@ Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vert
 Om tekst te kopiëren en plakkenmoet je normaal gesproken, cnt + v en cntr + c gebruiken. Maar voor Nicolette heb ik andere manieren gevonden waarvan ze makkelijk tekst kan kopiëren en plakken.
 Ik heb ervoor gezorgd dat ze met buttons tekst kan selecteren in plaats van slepen me haar pen. Ook zorgde ik ervoor dat ze met een zo min mogelijk handelingen/ combinaties van toets een actie kan uitvoeren.
 
-Verder heb ik een artikel per stuk verdeeld. Da hoef ze niet te scrollen, maar ze kan op de knop klikken en dan gaat ze naar de volgende paragraaf.
-Dit maak het makkelijk vooor haar om een stuk tekst te selecteren en te kopiëren.
+Verder heb ik een artikel per stuk verdeeld. Da hoef ze niet te scrollen, maar ze kan op de knop klikken en dan gaat ze naar de volgende paragraaf. Ik heb de knoppen op de rechterkant geplaatst, wat eigenlijk buiten de  norm is. Want Nicolette ze haar tekentablet aan de rechterkant van haar laptop, dus door de knoppen aan rechterkant te plaatsen hoeft ze niet veel slepen. 
+
 
 
 ## Add nonsense
-Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. Het betekent niet dat je echt nutteloos dingen moet in het prototype toevoegen. Maar het moet wel passen bij het speciefeke persoon waarvoor je ontwerpt, dat misschien waardeloos zou zijn voor andere mensen. Ik heb ook dit principe toegepast bij prototype 3. Dus wanneer Nicolette de interactie uitvoert om te kopiëren en daarna plakken, verandert de achtergrond naar een patroon klappende handen. Het is een bevestiging dat ze haar doel had bereikt, wat wa ze uiteindelijk wilde. 
+Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. Het betekent niet dat je echt nutteloos dingen moet in het prototype toevoegen. Maar het moet wel passen bij het speciefeke persoon waarvoor je ontwerpt, dat misschien waardeloos zou zijn voor andere mensen. Ik heb ook dit principe toegepast bij prototype 3. Dus wanneer Nicolette de interactie uitvoert om te kopiëren en daarna plakken, verandert de achtergrond naar een patroon klappende handen. Het is een bevestiging of een viering dat ze haar doel had bereikt, wat  ze uiteindelijk wilde. 
 
 ---
 ## Features
