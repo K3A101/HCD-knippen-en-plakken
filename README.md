@@ -79,6 +79,18 @@ Op mijn site heeft Nicolette de mogelijkheid om tekst kopiëren, selecteren en p
 
 
 # Testen
+
+## Do's and Dont bij testen
+Tijdens het testen heb ik bepaalde dingen gedaan en niet gedaan. Hieronder staan de dingen die ik heb gedaan en niet gedaan.
+- Geen suggesties geven
+- Geen oplossingen geven
+- De testpersoon aanmoeden om hardop te denken
+- De vragen van de testpersoon beantwoorden met een wedervraag
+- De testpersoon niet helpen
+- De testpersoon niet sturen
+
+
+
 ## Test 1
 Ik heb daardoor op basis van wat ik he gelezen, zonder haar te kennen een eerste versie van het prototype gemaakt. Het eerste test was voraal een kennismaking gesprek, waar ik Nicolette beter leren kennen. Ik heb daarna  mijn prototype laten zien en ze heeft het getest. Ik heb haar gevraagd wat ze ervan vond en wat ze nog zou willen.
 
@@ -271,6 +283,7 @@ Met dit principe heb ik de situatie van Nicolette leren kennen. Het is bereikt d
 
 
 ## Prioritise identity
+Prioritise identity principe gaat over de identiteit van de test persoon. Je gaat kijken wat de passie van de test persoon is, wat hij leuk vindt om te doen. Op basis van hun eigenschappen ga je een prototype maken.
 Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vertelde dat ze van natuur en geologie houdt. Dus ik heb een prototype gemaakt over natuur en geologie. Daardoor heb ik een stujke informatie gezocht over structuur van het aarde zodat ze gemak heeft om de paragraaf te kopiëren. 
 
 ## Ignore conventions
