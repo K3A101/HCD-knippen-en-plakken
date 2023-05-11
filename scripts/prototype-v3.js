@@ -18,7 +18,7 @@ pasteButtons[0].classList.add('hidden');
 
 
 
-document.addEventListener('mousedown', event => {
+document.addEventListener('mouseup', event => {
     const selectMessage = document.createElement('p');
     if (window.getSelection().toString().length) {
         body.classList.add('green');

@@ -1,4 +1,24 @@
-# Human centred Design
+# Knippen en Plakken zonder Klikken
+<img src="./images/v3.png">
+<!-- ![Homepagina](/images/prototype-1-v2.png) -->
+
+## Onderzoeksvraag
+### Kopiëren en plakken zonder klikken
+> Hoe kan Nicolette kopiëren en plakken zonder een muis?
+
+## Probleemdefinitie
+Nicolette kan heel beperkt haar armen en benen gebruiken, ze gebruikt geen muis en gebruikt nauwelijks het toetsenbord. Dus ze kan niet snelkoppelingen en de rechtermuis gebruiken. Als alternatief gebruik ze  een wacom tekentablet met een pen als muis en een spraakprogramma als toetsenbord. Omdat Nicolette geen muis of snellkoppeling gebruikt, wordt het moeilijker om tekst te kopiëren en plakken. Aan mij de taak om een ontwerp te maken waar ze tekst kan kopiëren zonder snelkoppelingen of de rechtermuisknop.
+
+## Opossing
+
+Als oplossing heb ik een artikel over structuur van de aarde gebruikt. Het artikel is verdeel in drie pargrafen. Per paragraaf zijn er verschillende manieren om tekst te selecteren zonder een muis. Om tussen de paragrafen te navigeren moet Nicolette op de vorige en volgende knop te drukken, dan hoeft ze niet te scrollen. In het eerste paragraaf kan Nicolette met knoppen het hele paragraaf selecteren, kopiëren en plakken. De knoppen hoeft ze alleen met de pen te klikken. Bij het tweede paragraaf kan ze met de toetsenbord kopiëren, dus als ze `c` indrukt wordt de tekst gekopieerd. En als ze `v` indrukt kan de tekst ergens plakken. 
+
+## Link prototype
+- Link: https://k3a101.github.io/HCD-knippen-en-plakken/prototype-v3.html
+
+
+---
+# Human centred Design - Proces documentatie
 Voor het vak human centred design ga ik een ontwerp maken voor een specifieke persoon. Tijden dit vak hou ik de gebruiker centraal. Op basis van testen ga ik mijn prototype itereren totdat het doel is bereikt. 
 
 # Inhoudsopgave 
@@ -76,7 +96,7 @@ Ik heb daardoor op basis van wat ik he gelezen, zonder haar te kennen een eerste
 - Hoe gebruik ze spraak op de web? Wat voor soort software gebruik u?
 
 ## Prototype 1 - Knippen en plakken met een button
-Ik heb de informatie over Nicolette  gelezen. Ik ken haar nog niet , dus met al  mijn aanames een prototype gemaakt. Mijn prototype is een HTMl pagina van het structuur van de aarde. Ik heb gehoord dat ze geoloog is dus ik heb een artikel gevonden over het structuur van de aarde. Dus de pagina bestaat uit een aantal onderdelen. Per onderdeel kun je up het kopieer button kopiëren en in de textarea plakken als je op de button klikt. 
+Ik heb de informatie over Nicolette  gelezen. Ik ken haar nog niet , dus met al  mijn aanames een prototype gemaakt. Mijn prototype is een HTMl pagina van het structuur van de aarde. Ik heb gehoord dat ze geoloog is dus ik heb een artikel gevonden over het structuur van de aarde. Dus de pagina bestaat uit een aantal onderdelen. Per paragraaf kun je up het kopieer button kopiëren en in de textarea plakken als je op de button klikt. 
 
 ![Prototype 1](images/prototype-1.png)
 
@@ -89,23 +109,29 @@ Bovenaan heb je een titel die benoemt waarover het artikel gaat en de content is
 ## Bevindigen van test 1
 De volledige inzichten van de eerste test staat in mijn [Wiki](https://github.com/K3A101/HCD-knippen-en-plakken/wiki/Test-1-met-Nicolette)
 
+### Observaties
+- Gebruik eew wacom tablet intous S met een stylus
+- Gebruik de pen als een muis
+- Kan wel de toetsenbord gebruiken maar kan niet snel typen
+- Ze zet de tablet aan de rechterkant van haar laptop
+
+
 ## Inzichten van het prototype
 Ik heb haar mijn prototype laten proberen. Ik heb eerst vertelt wat ik allemaal heb gedaan. Toen ze ht zag was echt blij. Haar reactie: "Wat leuk!". Ik heb mijn laptop en mijn Wacom tekentablet gebruikt zodat ze kan testen. De teketablet was toevallig eentje die ze kon ook gebruiken. Dus het was makkelijk om de prototype te testen. Ik heb gevraagd hoe ze de tablet gebruikt en ik heb zo voor haar opgesteld. De tablet zet ze aan de rechterkant, want ze gebruikt haar rechterarm. De laptop is aan de linkerkant en naar voren geschoven. 
 
 Ik heb een instructie gegeven hoe ze de prototype gebruikt. Ik heb een scenario opgesteld  en daarna heeft ze aan ons laat zien hoe ze die gebruikt. Ik heb als interactie dat ze met een knop een paragraaf kan kopiëren en daarna in de vakje plakken. 
 
 Inzichten:
- - Ze vond het heel makkelijk want ze hoeft niet alles te selecteren
+ - Ze vond de interacties heel erg makkelijk want ze hoeft niet alles te selecteren
  - Ze zou wel fijn vinden te selecteren zonder te scrollen
  - Ze heeft op haar pen een rechtermuis knop aan dus ze kan een beetje selecteren, maar het ze wilt het doen met spraak
  - Hoe selecteer ze met spraak?
    - 10 keer scrollen zeggen
  - Instellingen van Spraak makkelijker maken om de tekst te kunnen selecteren.
-- Vond het was makkelijk, maar ze vindt het wel een kleuterschool oplossing
 - Ze wil niks dat al voor je oplost, en wil wel op een makkelijke manier kunnnen selecteren. 
 - Ze is wel blij dat ze de buttons kunnen aanklikken, want ze heeft haar doel van knippen en plakken bereikt, maar het is te makkelijk. Maar ze vind het ook leuk om te doen. 
+- Ze zet haar tablet aan de rechterkant van haar laptop
 
-### Conclusie
 
 ### Mogelijke ideeen voor prototype 2
 - Ervoor zorgen dat je actie kan uitvoeren met één commando, toets, tap, klik(met de tablet);
@@ -119,20 +145,28 @@ Inzichten:
 - Acties moet uitgevoerd worden zonder een combinaties van handelingen shortcuts en gestures.
 - Selecteren zonder te slepen
 - Met een toets/spraak naar beneden scrollen, of naar de zijkant gaan
-- Het minst mogelijk handelingen om stukken te selecteren,
+- Het minst mogelijk handelingen om stukken te selecteren, bijvoorbeeld toets, spraak commando's en knoppen.
 - Makkelijker manier vinden om te selecteren zonder te scrollen 
 - De touch target groter maken voor haar vingers, zodat ze de knop makkelijker kan drukken
 - Kan een leuke commando verzinnen die een paar handelingen doet. Om te knippen en te plakken.
-- Kan de toetsenbord gebruiken als hulpmiddel, gewoon met een toets een actie laten uitvoeren. - Extension maken
+- Kan de toetsenbord gebruiken als hulpmiddel, gewoon met een toets een actie laten uitvoeren. 
 - Met alleen een toets een menu zichtbaar maken/ of acties uit voeren
 - Haar Spraak software makkelijk aan en uit kan zetten, bij haar vorige laptop kon ze dat doen met de + toets
-- Een extensie maken waarvan ze bij artikelen een kopie button komt en ze kan de content kopeieren, en in woord plakken. Ook feedback geven dat ze de teks had gekopieerd.
-- 
+- Een oplossing bedenken waarvan ze bij artikelen een kopie button komt en ze kan de content kopeieren, en in woord plakken. Ook feedback geven dat ze de teks had gekopieerd.
+  
 
+## Conclusie
+In het algemeen kon ze haar doel bereiken, om de tekst te kopiëren en plakken met alleen haar tablet. Ze vind wel dat de interactie meer complex mag zijn. Ze wil niet dat de interactie te makkelijk zijn.
 
+---
 # Prototype 2
-Ik heb na de eerste test een nieuwe iteratie gemaakt aan mijn prototype. Het onderwerp bleef hetzelfde, maar de layout is verandert. 
-Nu bestaat de pagina uit een navigatie menu waar de gebruiker kan kiezen uit verschillende prototype. Het is ook voor mij handig want dan kun je het process zien. 
+
+Ik heb na de eerste test een nieuwe iteratie gemaakt aan mijn prototype.
+ Het onderwerp bleef hetzelfde, maar de layout is verandert.Nu bestaat de pagina uit een navigatie menu waar de gebruiker kan kiezen uit verschillende prototype. Het is ook voor mij handig want dan kun je het process zien.  Per paragraaf heb je een andere type interactie. De eerste paragraaf kan ze met buttons tekst selecteren, daarna wordt de kopieer button zichtbaar. Daarna wordt de plakt knop zichtbaar. 
+ Bij de tweede paragraaf kan ze met de toets `c` het hele paragraaf kopiëren en `v` plakken. 
+ 
+ Terwijl ze de handelingen uitvoert it  krijgt ze een melding dat ze de tekst had gekopieerd. 
+
 
 ![Prototype 2](images/prototype-2.png)
 ![Prototype 2](images/prototype-2.2.png)
@@ -145,8 +179,11 @@ Nu bestaat de pagina uit een navigatie menu waar de gebruiker kan kiezen uit ver
 - Ze kan tekst kopiëren met de c toets en plakken met de v toets. 
 - Er Straat instructies, hoe ze moet kopeieren en plakken.
 - De tekst is groot genoeg zodat ze het kan lezen.
-- Kopieer en plak knoppen zijn onder het paragraaf
+- Kopieer en plak knoppen zijn onder het paragraaf.
 
+### Ontwerpkeuze
+
+Omdat de interactie om te kopiëren en plakken niet gebruikt maakt van snekkoppeling of rechtermuis menu. Heb ik aan de rechterkant van de gebruiksaanwijzingen toegevoegd zodat ze precies weet hoe ze moet kopiëren en plakken. 
 
 ## Test 2
 ### Testplan
@@ -166,32 +203,57 @@ Voor de tweede test heb ik een testplan met aantal taken voor Nicolette. Met dez
 ### Bevindingen van test 2
 De volledige inzichten van de tweede test staat in mijn [Wiki](https://github.com/K3A101/HCD-knippen-en-plakken/wiki/Test-2). Voor de test heb ik een testplan gemaakt. 
 
+## Observaties
+- Voordat ze op de toetsenbord klikt ga ze eerst zoeken waar ze haar vinger moets plaatsen. Ze noemt dat mikken. 
+- Ze kan niet in een keer vloeiend van beneden naar boven slepen. Ze doet aantal poging om de cursor naar boven te bewegen. 
+- Ze drukt echt hard met de pen op knoppen, ze wil zeker zijn dat ze de button geklikt is met de pen.
+
+
  ## Inzichten van het prototype
 - Ze vond het heel makkelijk want ze hoeft niet alles te selecteren door te slepen
 - Om de tekst te selecteren gaat ze op de pen te drukken en dan probeer ze met de pen te slepen om de tekst te selecteren
 - Met spraak kan zeg ze “selecteer aardkorst tot en met basalt”.
 - Vind wel handig als je met een knop de tekst kan selecteren en dan met spraak de tekst kopiëren en plakken. 
-- Bij de tweede paragraaf waren de instructie niet duidelijk dat ze met de toetsenbord moet tekst kopiëren en plakken.
-Heeft as later de instructie gelezen, dus de instructies waren niet duidelijk genoeg voor haar.
-Vond de eerste interactie hartstikke mooi. 
+- Bij de tweede paragraaf waren de gebruiksaanwijzing niet duidelijk genoeg. Dus Nicolette wist niet meteen dat ze met de toetsenbord tekst  kan kopiëren en plakken.
 - Om naar het volgende paragraaf te gaan dacht ze eerst om naar prototype drie te gaan of de verder knop te klikken. Ze heeft besloten om op verder te klikken. 
 - Ze kan wel met de toetsenbord werken, dus ze drukt c en v in en ze kon hiermee met het toetsenbord gekopieerd en geplakt. 
 - Ze zag niet eens de feedback dat ze de tekst gekopieerd heeft.
 
 
-### Conclusie
-
 ### Mogelijke ideeën voor prototype 3
 - Een mogelijkheid waar ze op basis van een selectie, de tekst meteen wordt gekopieerd.
-- Met arrow toets tekst selecteren
+- Met pijl toetsen tekst selecteren.
 - De feedback bericht duidelijker maken, zodat ze meteen kan zien dat ze de tekst heeft gekopieerd en geplakt.
-- Duidelijke instructie geven, hoe ze kan kopieren en plakken.
 - Een bericht geven dat de gebruiker de juiste toets invoert
+- Duidelijke gebruiksaanwijzing geven, hoe ze kan kopiëren en plakken.
 - Als de gebruiker niet op de juiste toets drukt wordt hij aangeraden op de juiste toetsen te gebruiken
+- Belangrijke elementen aan de rechterkant zetten, zodat het makkelijk, door haar te bereiken
+
+## Conclusie
+In deze prototype kan Nicolette tekst selecteren met een button. En ze kan ook kopiëren als op de c toets indrukt, en plakken als ze v indrukt. Verder kan ze van de ene paragraaf en naar de andere paragraaf kan gaan met behulp van knoppen.
 
 ---
 ## Prototype 3
-Ik heb een kleine iteratie gedaan bij het laatste 
+Ik heb een kleine iteratie gedaan bij het laatste prototype op basis van de uitvinding van de tweede test. De layout pagina is weer aangepast, de vorige en de volgende button zijn aan de rechterkant geplaatst zodat ze niet veel moet bewegen met de pen. Verder zijn de geruiksaanwijzing wat duidelijker gemaakt, zodat ze precies weet hoe ze de tekst kan kopiëren en plakken. Als laaste heb ik microinteractie toegevoegd bij de knoppen en de feedback zodat ik haar aandacht trekt.
+
+### Kopiëren en plakken met knoppen
+![v3](./images/v3.png)
+
+### Feedback dat de tekst is geselecteerd
+![v3 feedback](images/v3-feedback.png)
+
+### Gefeliciteerd bericht dat ze de tekst heeft gekopieerd
+![v3 compliment](images/v3-compliment.png)
+
+### Tekst kopiëren met de toetsenbord
+![v3](images/v3-toets.png)
+
+### Iteratie
+- Duidelijke vormgeving bij de feedback berichten.
+- Bewegende buttons om aandacht te trekken.
+- Een compliment wanneer ze de tekst kopieert en plakt.
+- De vorige en volgende knoppen zijn aan de rechterkant gepositioneerd. 
+- De gebruiksaanwijzingen zijn opvallender vormgegeven.
 
 ---
 # Exclusive design principes
@@ -209,7 +271,7 @@ Met dit principe heb ik de situatie van Nicolette leren kennen. Het is bereikt d
 
 
 ## Prioritise identity
-Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vertelde dat ze van natuur en geologie houdt. Dus ik heb een prototype gemaakt over natuur en geologie. Daardoor heb ik een stujke informatie gezocht over structuur van het aarde zodat ze gemak heeft om de paragraaf te kopiëren.
+Ik heb haar gevraagd wat haar passie is en wat ze leuk vindt om te doen. Ze vertelde dat ze van natuur en geologie houdt. Dus ik heb een prototype gemaakt over natuur en geologie. Daardoor heb ik een stujke informatie gezocht over structuur van het aarde zodat ze gemak heeft om de paragraaf te kopiëren. 
 
 ## Ignore conventions
  Als je voor een groot doelgroep iets ontwerp, moet je ontwerppatronnen gebruiken want mensen weten hoe die werken en kunnen ze makkelijk de website gebruiken. Met de ignore conventions, wordt bedoeld dat je prototype gaat maken die buiten de norm gaat Het prototype hoeft niet voor een groot groep mensen passen maar alleen voor het persoon die het prototype voor bedoeld is. 
@@ -222,19 +284,25 @@ Dit maak het makkelijk vooor haar om een stuk tekst te selecteren en te kopiëre
 
 
 ## Add nonsense
-Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. Dus iets toevoegen specifiek voor de persoon die de gebruiker blij maakt.
+Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. Het betekent niet dat je echt nutteloos dingen moet in het prototype toevoegen. Maar het moet wel passen bij het speciefeke persoon waarvoor je ontwerpt, dat misschien waardeloos zou zijn voor andere mensen. Ik heb ook dit principe toegepast bij prototype 3. Dus wanneer Nicolette de interactie uitvoert om te kopiëren en daarna plakken, verandert de achtergrond naar een patroon klappende handen. Het is een bevestiging dat ze haar doel had bereikt, wat wa ze uiteindelijk wilde. 
 
 ---
 ## Features
-- [] Met een button tekst kopiëren en plakken
-- [] Met spraak commando's uitvoeren.
-- [] Met  buttons tekst selecteren.
-- [] Met de toetsenbord tekst kopiëren en plakken. 
-- [] Met buttons naar het volgende paragraaf 
+- [x] Met een button tekst kopiëren en plakken
+- [ ] Met spraak commando's uitvoeren.
+- [x] Met  buttons tekst selecteren.
+- [x] Met de toetsenbord tekst kopiëren en plakken. 
+- [x] Met buttons naar het volgende paragraaf 
 
 ## Wishlist
-- [] een manier vinden waar ze kan zinnen kan selecteren
-- [] tekst kopiëren met spraak
+- [ ] een manier vinden waar ze kan zinnen kan selecteren
+- [ ] tekst kopiëren met spraak
 
 ---
-# Conclusie/reflectie
+# Conclusie
+Hoe kan Nicolette kopiëren en plakken zonder te klikken?
+Nicolette zei aan ons dat ze moeite had om tekst te kopiëren en plakken zonder een muis. Dus in de laatste drie weken heb ik een prototype gemaakt waarvan Nicolette makkelijk tekst kopiëren en plakken met haar tekentablet en de toetsenbord. 
+
+Elke keer heb ik mijn prototype met haar laten testen om te kijken hoe ze met de nieuwe interactie kan omgaan. Een opvallende opmerking uit de test blijkt dat Nicolette het scrollen en slepen heel vervelend dus dat maakt het moeilijk voor haar om tekst te selecteren, dus dat is ook iets dat het moeilijker maakt om tekst te selecteren en te kopiëren. Na elk user test, verzamel ik de bevindingen. Met de nieuwe bevinding  maak ik een nieuwe versie van mijn prototype.
+
+In mijn laatste prototype kan ze nu met behulp van knoppen tekst kopiëren en plakken, verder is het mogelijk op de toetsenbord met c en v. Dus uiteindelijk heeft Nicolette de mogelijkheid om tekst te selecteren, kopiëren en plakken met behulp van haar tekentablet.
