@@ -73,6 +73,7 @@ Voor het vak human centred design ga ik een ontwerp maken voor een specifieke pe
   - [Features](#features)
   - [Wishlist](#wishlist)
 - [Conclusie](#conclusie-2)
+  - [Reflectie](#reflectie)
 ---
 
 
@@ -343,6 +344,11 @@ Met de add nonsense principe ga ik waarde geven voor een specifieke gebruiker. H
 Hoe kan Nicolette kopiëren en plakken zonder te klikken?
 Nicolette zei aan ons dat ze moeite had om tekst te kopiëren en plakken zonder een muis. Dus in de laatste drie weken heb ik een prototype gemaakt waarvan Nicolette makkelijk tekst kopiëren en plakken met haar tekentablet en de toetsenbord. 
 
-Elke keer heb ik mijn prototype met haar laten testen om te kijken hoe ze met de nieuwe interactie kan omgaan. Een opvallende opmerking uit de test blijkt dat Nicolette het scrollen en slepen heel vervelend dus dat maakt het moeilijk voor haar om tekst te selecteren, dus dat is ook iets dat het moeilijker maakt om tekst te selecteren en te kopiëren. Na elk user test, verzamel ik de bevindingen. Met de nieuwe bevinding  maak ik een nieuwe versie van mijn prototype.
+Elke keer heb ik mijn prototype met haar laten testen om te kijken hoe ze met de nieuwe interactie kan omgaan. Een opvallende opmerking uit de test blijkt dat Nicolette het scrollen en slepen heel vervelend vond dus dat maakt het moeilijk voor haar om tekst te selecteren, dus dat is ook iets dat het moeilijker maakt om tekst te selecteren en te kopiëren. Na elk user test, had ik bevindingen verzameld. Met de nieuwe bevinding had ik twee versie van mijn prototype gemaakyt.
 
 In mijn laatste prototype kan ze nu met behulp van knoppen tekst kopiëren en plakken, verder is het mogelijk op de toetsenbord met c en v. Dus uiteindelijk heeft Nicolette de mogelijkheid om tekst te selecteren, kopiëren en plakken met behulp van haar tekentablet.
+
+## Reflectie
+
+Het was voor mij ook heel belangrijke om te leren hoe je een prototype maakt voor één gebruiker.
+Ik heb veel geleerd de laatste drie weken. Ik heb geleerd om een prototype te maken voor één specifieke persoon. Toen ik de eerste versie van mijn prototypr had gemaakt, had ik veel aannames van Nicolette. Maar na de eerste gebruiker test, kon ik had beter leren kennen en het probleem die Nicolette had met het kopiëren en plakken beter definiëren. Hiermee kon ik haar user needs beter begrijpen en aan de hand daarvan een prototype kunnen maken. Zo heb ik na elke test drie iteratie gemaakt op mijn prototype met elke keer nieuwe interactie om tekst te kopiëren en plakken.
