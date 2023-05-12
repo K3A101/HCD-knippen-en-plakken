@@ -32,7 +32,6 @@ Voor het vak human centred design ga ik een ontwerp maken voor een specifieke pe
 - [Inhoudsopgave](#inhoudsopgave)
 - [Study Situation](#study-situation)
   - [User scenario](#user-scenario)
-  - [Wie?](#wie)
   - [Wie is Nicolette Besemer?](#wie-is-nicolette-besemer)
   - [Wat is Het doel van Nicolette?](#wat-is-het-doel-van-nicolette)
     - [Wat zijn haar beperkingen](#wat-zijn-haar-beperkingen)
@@ -80,7 +79,6 @@ Voor het vak human centred design ga ik een ontwerp maken voor een specifieke pe
 # Study Situation
 ## User scenario
 
-## Wie?
 ## Wie is Nicolette Besemer?
 Nicolette is een 76 jarige vrouw. Nicolette kan beperkt gebruiken van haar ledematen. Ze kan deels haar arm en benen gebruiken.Ze gebruikt een rolstoel om zich te verplaatsen. 
 Zij is opgeleid als geooloog, en hou echt van onderwerpen over klimaatverandering en het natuur. Door haar passie had ze bij gemeente Amsterdam, waar ze veel activiteiten organiseerde voor gehandicapten.
